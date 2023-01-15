@@ -17,7 +17,8 @@ public class Solution {
             }
             
         // 'largest' must be the lexicographically largest substring of length 'k'
-        if(substring.compareTo(largest)>0){
+        
+            if(substring.compareTo(largest)>0){
                 largest=substring;
             }
         }
